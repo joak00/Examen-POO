@@ -18,9 +18,8 @@ public class Rectangle {
 		this.width = this.right - this.left;
 	}
 	
-	
 	public boolean isIn(Point point) {
-		if ((point.x > left) && (point.x<right) && (point.y>top) && (point.y<bottom)) {
+		if ((point.x >= left) && (point.x<=right) && (point.y>=top) && (point.y<=bottom)) {
 			return true;
 		}
 		return false;

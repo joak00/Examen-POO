@@ -20,6 +20,7 @@ public class Main {
 		Point point = new Point(35,59);
 		System.out.println("\nLa figura que se encuentra en el punto "+point.x+" "+point.y+" es: " + canvas.getSelected(point).toString().substring(6));
 		
+		
 		System.out.println("\nCambiamos los colores de Heart y Star ->");
 		heart1.setBackGroundColor("red");
 		star1.setBorderColor("yellow");
